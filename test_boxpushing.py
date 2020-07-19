@@ -179,7 +179,6 @@ class test_boxpushing:
 			state_reg.append(int(temp[2]))
 			state_reg.append(int(temp[3]))
 			state_reg.append(int(temp[4]))
-			state_reg.append(int(temp[7]))
 			x.append(state_reg)
 			y.append(float(temp[8]))
 
