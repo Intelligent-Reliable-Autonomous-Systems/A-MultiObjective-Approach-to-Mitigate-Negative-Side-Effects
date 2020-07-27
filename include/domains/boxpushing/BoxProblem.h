@@ -33,10 +33,6 @@ namespace box
  * boxInit denotes the initial location of the box and S denotes the
  * start location of the agent. The primary objective is to move the
  * box from init location to the goal (G) location.
- *  Crashing with a wall does not return the car to the start but leaves
- *  it in the wall with speed 0. Moving out of a wall has a cost of 10
- *  actions. The only actions available at walls are the ones that attempt
- *  to bring the car back to the track.
  */
  namespace mlmobj
 {
