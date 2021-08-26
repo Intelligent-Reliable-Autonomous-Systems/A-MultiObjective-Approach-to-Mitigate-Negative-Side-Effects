@@ -27,6 +27,6 @@ Example command line:
 ./testNSE --nav=data/navigation/grid-3.nav --algorithm=LLAO --numObj=2 --v=100 --gamma=0.95 --slack=5
 
 Misc:
-
+Instead of randomly generating problem instances for evaluation, this repository includes instances described by a map. Therefore the plots may be slightly different than those in the paper. 
 1. The maps describing the problems are in the folder:data/[domain_name]/. Data files for Boxpushing domains end with .bp and navigation problems end with .nav
 2. Test_boxpushing.py and test_navigation.py contain the domain-specific support functions for runNSE.py
