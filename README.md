@@ -13,6 +13,9 @@ Setup:
 4. Download boost: wget -O boost_1_67_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.67.0/boost_1_67_0.tar.gz/download
 5. Extract boost: tar xzvf boost_1_67_0.tar.gz
 
+Note: The code was tested on Ubuntu 16.04. Some of the packages are not supported by the latest Ubuntu, gcc versions and may result in compilation errors. 
+
+
 Execution:
 To compile: make testNSE
 
